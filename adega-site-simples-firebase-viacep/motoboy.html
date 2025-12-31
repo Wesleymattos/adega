@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel do Motoboy / Motorista — Adega</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <h1>Painel do Motoboy / Motorista</h1>
+    <p class="subtitle">Aceite solicitações e avance o status</p>
+  </header>
+
+  <main class="container">
+    <section class="address">
+      <label for="driver">Seu perfil:</label>
+      <select id="driver"></select>
+      <button id="toggle-active" class="primary">Ativar/Desativar</button>
+      <p id="active-status" class="status">—</p>
+    </section>
+
+    <section class="products">
+      <h2>Solicitações pendentes</h2>
+      <div id="request-list"></div>
+    </section>
+
+    <section class="cart">
+      <h2>Fluxo da entrega</h2>
+      <div id="flow-panel"></div>
+    </section>
+  </main>
+
+  <footer class="foot">Protótipo simples — Firebase Realtime Database.</footer>
+
+  <script type="module" src="js/motoboy.js"></script>
+</body>
+</html>

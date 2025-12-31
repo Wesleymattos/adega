@@ -1,0 +1,131 @@
+
+:root {
+  --bg: #0f1220;
+  --card: #1b1f34;
+  --text: #e6e6e6;
+  --muted: #b9bfd6;
+  --primary: #8f1d2c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.top,
+.foot {
+  padding: 16px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 16px;
+}
+
+.address,
+.products,
+.cart {
+  background: var(--card);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.card {
+  background: #11162a;
+  border: 1px solid #2b3150;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.subtitle {
+  color: var(--muted);
+}
+
+button {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button.primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+#cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #2b3150;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.status {
+  color: var(--muted);
+}
+
+#cep-info {
+  margin-top: 6px;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Botão “Sou motorista” no topo ===== */
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 16px;
+  background: var(--card);
+  border-bottom: 1px solid #2b3150;
+}
+
+.top-bar a {
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--primary);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.top-bar a:hover {
+  background: #a92a3b; /* tom mais claro no hover */
+}

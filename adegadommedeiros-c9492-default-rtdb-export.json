@@ -1,0 +1,292 @@
+{
+  "customers": {
+    "cust_001": {
+      "address": "Rua das Hortênsias, Gramado",
+      "cep": "95670-000",
+      "id": "cust_001",
+      "name": "João da Silva",
+      "phone": "+55 54 99999-1234"
+    },
+    "cust_002": {
+      "address": "Av. Borges de Medeiros, Gramado",
+      "cep": "95670-000",
+      "id": "cust_002",
+      "name": "Maria Oliveira",
+      "phone": "+55 54 98888-5678"
+    }
+  },
+  "deliveryPersons": {
+    "carro1": {
+      "active": true,
+      "id": "carro1",
+      "name": "Ana",
+      "vehicle": "carro"
+    },
+    "motoboy1": {
+      "active": false,
+      "id": "motoboy1",
+      "name": "Carlos",
+      "vehicle": "motoboy"
+    }
+  },
+  "orders": {
+    "ord_1767218321448": {
+      "address": {
+        "bairro": "Natal",
+        "cep": "94015-260",
+        "cidade": "Gravataí",
+        "logradouro": "Avenida Domício Moraes",
+        "uf": "RS"
+      },
+      "cep": "94015260",
+      "createdAt": "2025-12-31T21:58:41.448Z",
+      "id": "ord_1767218321448",
+      "items": [
+        {
+          "id": "w1",
+          "name": "Tinto Reserva",
+          "price": 65,
+          "qty": 1
+        },
+        {
+          "id": "w2",
+          "name": "Branco Seco",
+          "price": 45,
+          "qty": 1
+        }
+      ],
+      "modal": "carro",
+      "shipping": 0,
+      "status": "solicitado",
+      "subtotal": 110,
+      "total": 110
+    },
+    "ord_1767218325456": {
+      "address": {
+        "bairro": "Natal",
+        "cep": "94015-260",
+        "cidade": "Gravataí",
+        "logradouro": "Avenida Domício Moraes",
+        "uf": "RS"
+      },
+      "cep": "94015260",
+      "createdAt": "2025-12-31T21:58:45.456Z",
+      "id": "ord_1767218325456",
+      "items": [
+        {
+          "id": "w1",
+          "name": "Tinto Reserva",
+          "price": 65,
+          "qty": 1
+        },
+        {
+          "id": "w2",
+          "name": "Branco Seco",
+          "price": 45,
+          "qty": 1
+        }
+      ],
+      "modal": "carro",
+      "shipping": 0,
+      "status": "solicitado",
+      "subtotal": 110,
+      "total": 110
+    },
+    "ord_1767218325625": {
+      "address": {
+        "bairro": "Natal",
+        "cep": "94015-260",
+        "cidade": "Gravataí",
+        "logradouro": "Avenida Domício Moraes",
+        "uf": "RS"
+      },
+      "cep": "94015260",
+      "createdAt": "2025-12-31T21:58:45.625Z",
+      "id": "ord_1767218325625",
+      "items": [
+        {
+          "id": "w1",
+          "name": "Tinto Reserva",
+          "price": 65,
+          "qty": 1
+        },
+        {
+          "id": "w2",
+          "name": "Branco Seco",
+          "price": 45,
+          "qty": 1
+        }
+      ],
+      "modal": "carro",
+      "shipping": 0,
+      "status": "solicitado",
+      "subtotal": 110,
+      "total": 110
+    },
+    "ord_1767218325789": {
+      "address": {
+        "bairro": "Natal",
+        "cep": "94015-260",
+        "cidade": "Gravataí",
+        "logradouro": "Avenida Domício Moraes",
+        "uf": "RS"
+      },
+      "cep": "94015260",
+      "createdAt": "2025-12-31T21:58:45.789Z",
+      "id": "ord_1767218325789",
+      "items": [
+        {
+          "id": "w1",
+          "name": "Tinto Reserva",
+          "price": 65,
+          "qty": 1
+        },
+        {
+          "id": "w2",
+          "name": "Branco Seco",
+          "price": 45,
+          "qty": 1
+        }
+      ],
+      "modal": "carro",
+      "shipping": 0,
+      "status": "aceito",
+      "subtotal": 110,
+      "total": 110
+    },
+    "ord_1767218429723": {
+      "address": {
+        "bairro": "Natal",
+        "cep": "94015-260",
+        "cidade": "Gravataí",
+        "logradouro": "Avenida Domício Moraes",
+        "uf": "RS"
+      },
+      "cep": "94015260",
+      "createdAt": "2025-12-31T22:00:29.723Z",
+      "id": "ord_1767218429723",
+      "items": [
+        {
+          "id": "w3",
+          "name": "Espumante Brut",
+          "price": 89,
+          "qty": 1
+        }
+      ],
+      "modal": "carro",
+      "shipping": 25,
+      "status": "a_caminho_cliente",
+      "subtotal": 89,
+      "total": 114
+    },
+    "ord_1767219325410": {
+      "address": {
+        "bairro": "Natal",
+        "cep": "94015-260",
+        "cidade": "Gravataí",
+        "logradouro": "Avenida Domício Moraes",
+        "uf": "RS"
+      },
+      "cep": "94015260",
+      "createdAt": "2025-12-31T22:15:25.410Z",
+      "id": "ord_1767219325410",
+      "items": [
+        {
+          "id": "w3",
+          "name": "Espumante Brut",
+          "price": 89,
+          "qty": 6
+        },
+        {
+          "id": "w1",
+          "name": "Tinto Reserva",
+          "price": 80,
+          "qty": 3
+        },
+        {
+          "id": "w2",
+          "name": "Branco Seco",
+          "price": 45,
+          "qty": 3
+        }
+      ],
+      "modal": "carro",
+      "shipping": 0,
+      "status": "a_caminho_cliente",
+      "subtotal": 909,
+      "total": 909
+    },
+    "ord_1767219718656": {
+      "address": {
+        "bairro": "Natal",
+        "cep": "94015-260",
+        "cidade": "Gravataí",
+        "logradouro": "Avenida Domício Moraes",
+        "uf": "RS"
+      },
+      "cep": "94015-260",
+      "createdAt": "2025-12-31T22:21:58.656Z",
+      "id": "ord_1767219718656",
+      "items": [
+        {
+          "id": "w4",
+          "name": "vinho de gti",
+          "price": 400,
+          "qty": 1
+        }
+      ],
+      "modal": "carro",
+      "shipping": 0,
+      "status": "aceito",
+      "subtotal": 400,
+      "total": 400
+    }
+  },
+  "requests": {
+    "req_1767219718829": {
+      "assignedTo": "carro1",
+      "createdAt": 1767219718829,
+      "expiresAt": 1767219728829,
+      "id": "req_1767219718829",
+      "modal": "carro",
+      "orderId": "ord_1767219718656",
+      "status": "to_adega"
+    }
+  },
+  "settings": {
+    "freeShippingThreshold": 100,
+    "origin": {
+      "cep": "95670-000",
+      "city": "Gramado",
+      "uf": "RS"
+    },
+    "priceCarro": 25,
+    "priceMotoboy": 15
+  },
+  "wines": {
+    "w1": {
+      "desc": "Frutas vermelhas e carvalho.",
+      "id": "w1",
+      "name": "Tinto Reserva",
+      "price": 80
+    },
+    "w2": {
+      "desc": "Refrescante, ideal para peixes.",
+      "id": "w2",
+      "name": "Branco Seco",
+      "price": 45
+    },
+    "w3": {
+      "desc": "Perlage fina para celebrar.",
+      "id": "w3",
+      "name": "Espumante Brut",
+      "price": 89
+    },
+    "w4": {
+      "desc": "o do bom e do melhor",
+      "id": "w4",
+      "name": "vinho de gti",
+      "price": 400
+    }
+  }
+}

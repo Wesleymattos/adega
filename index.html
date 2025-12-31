@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adega — Calcule seu frete</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Barra com botão para motorista -->
+ 
+<div class="top-bar">
+  <a href="motoboy.html" target="_blank">Sou motorista</a>
+</div>
+
+
+
+  <header class="top">
+    <h1>Adega de Vinhos</h1>
+    <p class="subtitle">Gramado/RS</p>
+  </header>
+
+  <main class="container">
+    <section class="address">
+      <label for="cep">CEP:</label>
+      <input id="cep" type="text" placeholder="95670-000" />
+      <!-- Resultado da consulta ViaCEP -->
+      <div id="cep-info" class="status">Digite o CEP e saia do campo para validar.</div>
+    </section>
+
+    <section class="products">
+      <h2>Vinhos</h2>
+      <div id="product-list" class="grid"></div>
+    </section>
+
+    <section class="cart">
+      <h2>Seu carrinho</h2>
+      <div id="cart-items"></div>
+      <div class="totals">
+        <p>Subtotal: <strong id="subtotal">R$ 0,00</strong></p>
+        <p>Frete: <strong id="shipping">—</strong></p>
+        <p>Total: <strong id="grand-total">R$ 0,00</strong></p>
+      </div>
+      <div class="shipping">
+        <label for="modal">Entrega:</label>
+        <select id="modal">
+          <option value="motoboy">Motoboy</option>
+          <option value="carro">Carro</option>
+        </select>
+        <button id="btn-request" class="primary">Solicitar Entrega</button>
+      </div>
+      <p id="status" class="status">—</p>
+    </section>
+  </main>
+
+  <footer class="foot">Protótipo simples — Firebase + ViaCEP.</footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
